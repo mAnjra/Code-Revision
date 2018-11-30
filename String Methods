@@ -1,0 +1,32 @@
+
+public class StringMethods{
+
+            public static void main(String[] args){
+            //here are some string methods, substring, indexOf
+
+            String word = "integrity";
+            System.out.println(word.substring(4)); 
+            System.out.println(word.substring(3,8)); 
+
+            //we can store the return value in a string, as substring returns a string
+
+            String book = "Mary Poppins";
+            String endpart = book.substring(5);
+            System.out.println("Azhar "+endpart);// returns Azhar poppins
+
+            //indexOf returns the beginning index of a particular word you are trying to find in a word
+            //it will return an int, so an index...
+
+            String name = "Azhar";
+            int io = name.indexOf("ha");//store the index number into io
+            System.out.println(name.substring(io));//now we can use substring and pass the index number stored in io
+
+            //now if the charachters you are looking for are not found in the word, indexOf will return -1
+            
+            io = name.indexOf("rt");
+            System.out.println(io);//this will return -1
+            //now pass this into the substring you will get an error
+            System.out.println(name.substring(io));//error StringIndexOutOfBoundsException
+
+        }
+}
