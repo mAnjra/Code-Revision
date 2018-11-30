@@ -15,24 +15,8 @@ public class test3
         answer = greatest(2, 5);
         System.out.println("The least number is: "+ answer);
         System.out.println("The greatest number is: " + answer);
-        //why is the number underline green.
-        //this usually is true, variables defined in main are not visible and availble for change
-        //by other methods.
-        //the only way we can let other methods know of this variable, is call the variable in the methods
-        //parameters 
-
     }
-/* so this wont work
-    public static void add(){
-        number = number +1;
-
-    }
-
-*/
-
-//the main programme value will not change, we created an instance of number and it only exists in this
-//method, not globally. why because we are not returning anything, we're using void, only thing we're doing is
-//copying the varibale 'number' and changing it in this method. 
+ 
 public static int addThree(int number){
     System.out.println("The method value is: " + number);
 
