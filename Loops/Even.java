@@ -8,11 +8,5 @@ public class Even{
                 System.out.println(i);
             }
         }
-
-        
-
-
-
-
     }
 }
