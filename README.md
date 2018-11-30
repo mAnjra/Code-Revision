@@ -1,6 +1,4 @@
-# Java basics - constant code revision - exercises
-
-String Methods:
+# String Methods:
 
     import java.util.Scanner;
 
