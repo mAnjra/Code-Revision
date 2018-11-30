@@ -3,7 +3,7 @@ import java.text.NumberFormat;
 import java.util.Formatter;
 import java.util.Scanner;
 
-public class ex36{
+public class numberRound{
 
     public static void main(String[] args){
 
@@ -39,17 +39,9 @@ public class ex36{
                     even++;
                 }else{
                     odd++;
-                }
-                
-                
-                
-            }
-            
+                }   
+            }   
         }
-        
-        
-
-
     }
     /**
      * In these exercises we actually created one single program, 
@@ -60,7 +52,7 @@ public class ex36{
     exercise or a project of your own, it is advised to do it 
     in very tiny pieces. Do not ever try to solve the whole problem in one go. 
     Start with something easy, something you know that you can do. 
-    In this recent set of exercises, for example, we focused first on stopping 
+    In this recent set of exercises, for example, I focused first on stopping 
     the program when the user types -1. When one part of the program is 
     complete and working, we can move on to work out the solution 
     for the next sub-problem of the big main problem.
@@ -68,9 +60,5 @@ public class ex36{
     Some of the exercises in this course are sliced into smaller pieces 
     like the set of exercises we just introduced. Usually the pieces need 
     to be sliced again into smaller pieces depending on the problem. 
-    It is advised that you execute the whole program after almost every new line of code you write. 
-    This enables you to be sure that your solution is going in the right and working direction.
-
-
      */
 }
