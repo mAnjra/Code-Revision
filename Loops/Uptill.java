@@ -13,7 +13,5 @@ public class Uptill{
             System.out.println(i);
             i++;
         }
-
-
      }
 }
