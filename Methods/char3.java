@@ -3,9 +3,6 @@ import java.util.Scanner;
 public class char3{
 
     public static void main(String[] args){
-        //using char 
-        //String word = "boobs";
-
         //char charachter = word.charAt(3);
         /*
         String charachter = word.charAt(3);
@@ -15,8 +12,7 @@ public class char3{
         System.out.print("Please enter your name: ");
         String name = scan.nextLine();
         scan.close();
-
-        
+   
         //Methods
         calChar(name);
         firstChar(name);
@@ -27,7 +23,7 @@ public class char3{
        
         for(int i = 0; i <= name.length()-1;i++){ 
            
-            if(name.length()>=3){//had a problem with the logic here. always do.
+            if(name.length()>=3){
                 System.out.println(r+". Character: "+name.charAt(i));
                 r++;
             }else{     
@@ -35,9 +31,6 @@ public class char3{
                 break;
         }
     }
-
-
-
     }
 
     public static void revString(String text){
@@ -53,21 +46,15 @@ public class char3{
         int i;
         for(i=0;i<=text.length()-1;i++){    
         }
-        System.out.println("Your name is "+i+" charachters long");
-        //return i;
-        
+        System.out.println("Your name is "+i+" charachters long");       
     }
 
     public static void firstChar(String text){
         char charachter = text.charAt(0);
         System.out.println("The first character is: "+charachter);
-       // return charachter;
     }
 
     public static void lastChar(String text){
         System.out.println("Last charachter is: "+ text.charAt(text.length()-1));      
     }
-
 }
-
-
