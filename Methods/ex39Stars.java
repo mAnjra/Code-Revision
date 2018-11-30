@@ -5,11 +5,8 @@ public class ex39Stars{
         //stars(4);
         //stars(3);
         //printSquare(100);
-        printRect(3, 17);
-        
+        printRect(3, 17);        
     }
-
-
 
 public static void stars(int r){
             //int i = 0;
@@ -17,8 +14,7 @@ public static void stars(int r){
                 System.out.print("*");
                 r--;
             }
-            System.out.println();//had to include this was not printing on a new line. 
-            //after the while is completed a new line is created when the methid is called again.
+            System.out.println();
         }
 
 public static void printSquare(int s){
@@ -52,9 +48,4 @@ public static void printTrin(int t){
 
     }
 }
-
-
-
 }
-            
-
