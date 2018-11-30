@@ -1,20 +1,17 @@
 # Java basics - constant code revision - exercises
 
-String Methods >>>>>>>
+String Methods:
 
-import java.util.Scanner;
+    import java.util.Scanner;
 
-public class StringMethods{
+    public class StringMethods{
 
     private static Scanner scan = new Scanner(System.in);
-    public static void main(String[] args){
-        
+    public static void main(String[] args){      
         //firstPart();
         //lastPart();
         //inside();
         reverse();
-
-
     }
 
 
