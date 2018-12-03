@@ -91,25 +91,6 @@ public class Average implements Serializable{
             //so on... for each loop will end when all elements have been assigned
         }
         System.out.println("Average weight: "+ average/weight.size());
-        
-
-
-    
+   
     }
-
-
-
-
-
-
-/*DEAD CODE
-for(i = 0; i<4;i++){
-        average += weight[i]; 
-        //average /= i; 
-
-    }    
-
-//average = average / r; IGNORE WRONG
-
-*/
 }
