@@ -14,24 +14,9 @@ public class ex57ArrayList{
                 break;
             }else{
                 words.add(add);
-            }
-            
+            }      
         }
 
-        
-        /*
-        while(add.isEmpty()){
-            words.add(add);
-        }
-        scan.close();
-       
-        /*
-        if(add.isEmpty()){
-            scan.close();
-        }else{
-            words.add(add);
-        }
-    */
 System.out.println("Here are the words: ");
         for(String w : words){
             System.out.println(w);
