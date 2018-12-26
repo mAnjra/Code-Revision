@@ -17,6 +17,7 @@ public class reverse59{
                 list.add(word);    
                }           
        }
+        //use built in method in Collections class
        Collections.reverse(list);
        for(String i : list){
            System.out.println(i);
