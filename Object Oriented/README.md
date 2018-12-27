@@ -1,5 +1,5 @@
 Scanner, String, ArrayList are all objects, they share that similarity - yet they are all different classes. 
-Objects are instances of classes.
+Objects are instances of classes. A class describes the "blueprint" of the objects that are made out of it (are instances of it).
 
      " It is clear that all objects are not similar to one another. 
       For example, ArrayList objects differ drastically from String objects. 
