@@ -10,7 +10,9 @@ public class DecreaseCounter{
    }
 
    public void decreaseValue(){
-    this.value -= 1; 
+    if(this.value>0){
+       this.value -= 1;  
+    }  
    }
 
 }
