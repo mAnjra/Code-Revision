@@ -34,6 +34,13 @@ public class Person{
     
       public String toString(){
         return "Name: "+this.name + " Age: "+ this.age;
+          /*
+          instead of printing it it returns the string representation of the object
+          also in main the you can simply type sysou...andy and leave out the toString
+          as java automatically completes that at runtime. the object asks for its string representation
+          at runtime and looks for a toString.
+          */
+         
     }
 
 
