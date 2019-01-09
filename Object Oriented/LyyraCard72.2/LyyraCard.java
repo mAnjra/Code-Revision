@@ -5,12 +5,20 @@ public class LyyraCard{
         this.balance = balance;
     }
 
-    public void payEconomical(){
+    public void payEconomical() {
+        if(balance >= 2.50){
         this.balance -= 2.50;
+        }else{
+            System.out.println("Not enough credit");
+        }
     }
 
-    public void payGourmet(){
-        this.balance -= 4.00;
+    public void payGourmet() {
+        if (balance >= 4.0) {
+            this.balance -= 4.00;
+        }else{
+            System.out.println("Not enough credit");
+        }
     }
     
     public void loadMoney(double amount){
