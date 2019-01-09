@@ -12,6 +12,13 @@ public class LyyraCard{
     public void payGourmet(){
         this.balance -= 4.00;
     }
+    
+    public void loadMoney(double amount){
+        this.balance += amount;
+        if(this.balance>150){
+            this.balance = 150;
+        }
+    }
 
     @Override
     public String toString(){
