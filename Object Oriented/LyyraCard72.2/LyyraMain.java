@@ -9,5 +9,12 @@ public class LyyraMain{
         card1.payGourmet();
         card1.payEconomical();
         System.out.println(card1);
+        
+        card1.loadMoney(15);
+        System.out.println(card1);
+        card1.loadMoney(10);
+        System.out.println(card1);
+        card1.loadMoney(200);
+        System.out.println(card1);
     }
 }
