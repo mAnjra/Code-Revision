@@ -1,47 +1,56 @@
-public class Person{
+
+public class Person {
     private String name;
     private int age;
+    private int weight;
+    private int height;
 
-    public Person(String name){
-        
+    public Person(String name) {
+
         this.name = name;
         this.age = 0;
+        this.weight = 0;
+        this.height = 0;
     }
 
-    public void printPerson(){
+    public void printPerson() {
         System.out.println(this.name + ", age" + this.age + " years");
     }
 
-    public void becomeOlder(){
+    public void becomeOlder() {
         this.age += 1;
     }
 
-    public boolean isAdult(){
-        return this.age>=18;
+    public boolean isAdult() {
+        return this.age >= 18;
 
-        /*It can also be done this way - slightly verbose
-        if(this.age<18){
-            return false
-        }
-
-        return true
-        */
+        /*
+         * It can also be done this way - slightly verbose if(this.age<18){ return false
+         * }
+         * 
+         * return true
+         */
     }
 
-    public String getName(){
+    public String getName() {
         return this.name;
     }
-    
-      public String toString(){
-        return "Name: "+this.name + " Age: "+ this.age;
-          /*
-          instead of printing it it returns the string representation of the object
-          also in main the you can simply type sysou...andy and leave out the toString
-          as java automatically completes that at runtime. the object asks for its string representation
-          at runtime and looks for a toString.
-          */
-         
+
+    public void setWeight(int weight) {
+        this.weight = weight;
     }
 
+    public void setheight(int height) {
+        this.height = height;
+    }
+
+    public double bodyMassIndex() {
+        double heightDividedByHun = this.height / 100.0;
+        return this.weight / (heightDividedByHun * heightDividedByHun);
+    }
+
+    public String toString() {
+        return "Name: " + this.name + " Age: " + this.age;
+    }
 
 }

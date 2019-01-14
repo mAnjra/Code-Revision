@@ -2,7 +2,20 @@ public class PersonMain {
     public static void main(String[] args) {
        Person bob = new Person("Bob");
        Person andy = new Person("Andy");
+       
+       bob.setheight(180);
+       bob.setWeight(86);
 
+       andy.setheight(175);
+       andy.setWeight(64);
+
+       System.out.println(bob.getName() + ", body mass index: " + bob.bodyMassIndex());
+       System.out.println(andy.getName()+ ", body mass index: " + andy.bodyMassIndex());
+
+
+
+
+/*
        int i = 0;
        while(i <30){
            bob.becomeOlder();
@@ -22,6 +35,7 @@ public class PersonMain {
            System.out.println(bob.getName() + " is an Adult");
        }else{
            System.out.println(bob.getName() + "is a Minor");
-       }
+       }*/
+
     }     
 }
