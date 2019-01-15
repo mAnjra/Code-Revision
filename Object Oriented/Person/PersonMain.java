@@ -11,10 +11,6 @@ public class PersonMain {
 
        System.out.println(bob.getName() + ", body mass index: " + bob.bodyMassIndex());
        System.out.println(andy.getName()+ ", body mass index: " + andy.bodyMassIndex());
-
-
-
-
 /*
        int i = 0;
        while(i <30){
@@ -36,6 +32,5 @@ public class PersonMain {
        }else{
            System.out.println(bob.getName() + "is a Minor");
        }*/
-
     }     
 }
