@@ -25,6 +25,6 @@ public class NumberStatistics{
             return 0;
         }else{
             return (double) this.sum / this.amountOfNumbers;//have to cast a double. otherwise answer ignores numbers after decimal
-        }
+        }                                                   //it is called an explicit type conversion
     }
 }
