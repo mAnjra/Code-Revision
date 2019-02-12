@@ -9,7 +9,7 @@ public class PasswordRandomiser{
         this.passwordLength = passwordLength;
         this.random = new Random();
     }
-
+    
     public String createPassword(){
         int loopIncrementer = 0;
         int charPosition;
