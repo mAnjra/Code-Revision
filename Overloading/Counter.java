@@ -7,10 +7,10 @@ public class Counter{
         this.check = check;
     }
 
-    public Counter(int number){//works...
+    public Counter(int number){
         this(number, false);
     }
-    public Counter(boolean check){//works...
+    public Counter(boolean check){
         this(0, check);
     }
 
