@@ -37,7 +37,26 @@ public class Counter{
     }
 
 
+    public void increase(int increaseBy) {
+        if (increaseBy >= 0) {
+            this.number += increaseBy;
+        }
+    }
 
+    public void decrease(int decreaseBy) {
+        int i = this.number - decreaseBy;
+        if (this.check == true && decreaseBy >= 0) {
+            if (i >= 0) {
+                this.number -= decreaseBy;
+            } else {
+                this.number = 0;
+            }
+        } else {
+            if (decreaseBy >= 0) {
+                this.number -= decreaseBy;
+            }
+        }
+    }
 
 
 }
