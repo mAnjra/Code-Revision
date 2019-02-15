@@ -10,6 +10,9 @@ public class CounterMain{
            System.out.println(counter.value()); 
            i++;
         }
-        
+        /* counter decrease test
+        counter.decrease(5);
+        System.out.println(counter.value());
+        */
     }
 }
