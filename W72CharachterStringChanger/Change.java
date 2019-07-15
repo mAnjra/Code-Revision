@@ -1,14 +1,14 @@
 public class Change {
 
-    private char fromCharachter;
-    private char toCharachter;
+    private char fromCharacter;
+    private char toCharacter;
 
-    public Change(char fromCharachter, char toCharachter) {
-        this.fromCharachter = fromCharachter;
-        this.toCharachter = toCharachter;
+    public Change(char fromCharacter, char toCharacter) {
+        this.fromCharacter = fromCharacter;
+        this.toCharacter = toCharacter;
     }
 
     public String change(String change) {
-        return change.replace(fromCharachter, toCharachter);
+        return change.replace(fromCharacter, toCharacter);
     }
 }
