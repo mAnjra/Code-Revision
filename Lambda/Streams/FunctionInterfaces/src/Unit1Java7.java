@@ -47,12 +47,6 @@ public class Unit1Java7 {
 
         }
 
-        //here we have created a condition interface, and passed it into the method param
-        //Java however allows us to use one of its out of the box interfaces - called functional interfaces
-        //so we don't have to create an interface in this case. we can simply use
-        //the already made Predicate interface, this takes a generic and returns a boolean, which is exactly
-        //what our condition method does.
-        //so we can comment out this following method header:
         private static void printConditionally(List<Person> people, Condition condition) {
             for (Person p : people) {
                 if (condition.test(p)) {
