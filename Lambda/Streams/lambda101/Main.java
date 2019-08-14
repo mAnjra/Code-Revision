@@ -25,12 +25,9 @@ public class Main {
         // for it. If i get rid of greeting from out lambda function it would need an interface to support it, as java
         // needs a variable type.
 
-
         //Both ways have same output
         greeter.greet(lambdaGreeting);//both are connected to our interface lambda101.Greeting
         greeter.greet(greeting);
-
-
     }
 
 }
