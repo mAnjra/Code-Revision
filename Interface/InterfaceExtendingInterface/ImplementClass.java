@@ -2,7 +2,7 @@ package InterfaceExtendingInterface;
 
 /**
  * As interface B extends interface A, when we implement interface B
- * we also have to implements interface A's methods.
+ * we also have to implement interface A's methods.
  */
 
 public class ImplementClass implements B {
